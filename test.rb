@@ -4,6 +4,8 @@ require './class'
 
 user = User.new
 user.name = "test"
-puts user.name
-puts user.address
+user.address = "Tokyo"
+user.email = "hogehoge@hoge.com"
+
+puts user.profile
 
