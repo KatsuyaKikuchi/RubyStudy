@@ -1,11 +1,12 @@
 # frozen_string_literal: true
 
 require './class'
+require './person'
 
-user = User.new
-user.name = "test"
-user.address = "Tokyo"
-user.email = "hogehoge@hoge.com"
+user = User.new("hoge", "piyo", "huga")
 
 puts user.profile
+
+person = Person.new('test', 'hoge', 100)
+puts person.name(full: false, with_age: false)
 
