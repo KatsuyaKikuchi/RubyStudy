@@ -10,3 +10,5 @@ puts user.profile
 person = Person.new('test', 'hoge', 100)
 puts person.name(full: false, with_age: false)
 
+puts __FILE__
+puts __LINE__
