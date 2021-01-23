@@ -1,4 +1,3 @@
-
 module Chatting
   def chat
     'hello'
