@@ -5,3 +5,7 @@ text = <<~TEXT
 TEXT
 
 puts text.scan(/[A-Z][A-Za-z]+/)
+
+regexp = /\d{3}-\d{4}/
+m      = /[A-Z][A-Za-z]+/.match(text)
+puts m
