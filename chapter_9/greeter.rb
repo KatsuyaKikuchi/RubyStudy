@@ -12,6 +12,8 @@ rescue StandardError => e
   puts e.class
   puts e.message
   puts e.backtrace
+ensure
+  # finallyみたいな感じ
 end
 count = 3
 begin
